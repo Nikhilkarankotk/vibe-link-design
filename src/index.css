@@ -20,9 +20,11 @@ All colors MUST be HSL.
     --primary: 207 90% 54%;
     --primary-foreground: 0 0% 100%;
     --primary-glow: 207 90% 70%;
+    --primary-dark: 207 90% 45%;
 
     --secondary: 152 69% 54%;
     --secondary-foreground: 0 0% 100%;
+    --secondary-glow: 152 69% 70%;
 
     --muted: 210 40% 96%;
     --muted-foreground: 215 16% 47%;
@@ -40,10 +42,15 @@ All colors MUST be HSL.
     --radius: 1rem;
 
     --gradient-primary: linear-gradient(135deg, hsl(207 90% 54%), hsl(152 69% 54%));
+    --gradient-secondary: linear-gradient(135deg, hsl(152 69% 54%), hsl(207 90% 54%));
     --gradient-card: linear-gradient(180deg, hsl(0 0% 100%), hsl(210 40% 98%));
+    --gradient-overlay: linear-gradient(180deg, transparent, hsl(0 0% 0% / 0.05));
+    --shadow-sm: 0 1px 3px hsl(215 25% 27% / 0.05);
     --shadow-card: 0 2px 8px hsl(215 25% 27% / 0.08);
-    --shadow-elevated: 0 4px 16px hsl(215 25% 27% / 0.12);
+    --shadow-elevated: 0 8px 24px hsl(215 25% 27% / 0.12);
+    --shadow-glow: 0 0 20px hsl(207 90% 54% / 0.15);
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-spring: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
   }
 
   .dark {
@@ -59,9 +66,11 @@ All colors MUST be HSL.
     --primary: 207 90% 54%;
     --primary-foreground: 0 0% 100%;
     --primary-glow: 207 90% 70%;
+    --primary-dark: 207 90% 45%;
 
     --secondary: 152 69% 54%;
     --secondary-foreground: 0 0% 100%;
+    --secondary-glow: 152 69% 70%;
 
     --muted: 215 28% 22%;
     --muted-foreground: 215 20% 65%;
@@ -77,9 +86,13 @@ All colors MUST be HSL.
     --ring: 207 90% 54%;
 
     --gradient-primary: linear-gradient(135deg, hsl(207 90% 54%), hsl(152 69% 54%));
+    --gradient-secondary: linear-gradient(135deg, hsl(152 69% 54%), hsl(207 90% 54%));
     --gradient-card: linear-gradient(180deg, hsl(215 28% 19%), hsl(215 28% 17%));
+    --gradient-overlay: linear-gradient(180deg, transparent, hsl(0 0% 0% / 0.1));
+    --shadow-sm: 0 1px 3px hsl(0 0% 0% / 0.1);
     --shadow-card: 0 2px 8px hsl(0 0% 0% / 0.2);
-    --shadow-elevated: 0 4px 16px hsl(0 0% 0% / 0.3);
+    --shadow-elevated: 0 8px 24px hsl(0 0% 0% / 0.3);
+    --shadow-glow: 0 0 20px hsl(207 90% 54% / 0.25);
   }
 }
 

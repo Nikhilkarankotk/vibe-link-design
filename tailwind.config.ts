@@ -18,14 +18,19 @@ export default {
       },
       backgroundImage: {
         'gradient-primary': 'var(--gradient-primary)',
+        'gradient-secondary': 'var(--gradient-secondary)',
         'gradient-card': 'var(--gradient-card)',
+        'gradient-overlay': 'var(--gradient-overlay)',
       },
       boxShadow: {
+        'sm': 'var(--shadow-sm)',
         'card': 'var(--shadow-card)',
         'elevated': 'var(--shadow-elevated)',
+        'glow': 'var(--shadow-glow)',
       },
       transitionProperty: {
         'smooth': 'var(--transition-smooth)',
+        'spring': 'var(--transition-spring)',
       },
       colors: {
         border: "hsl(var(--border))",
